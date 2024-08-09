@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-body-tertiary">
   <header>
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
@@ -40,75 +40,63 @@
           </form>
 
         </div>
-          <div class=" d-flex lista">
+        <div class="collapse navbar-collapse lista justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#">Registrate</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
-                <div class="dropdown-menu">
-                  <div class="btn-group dropstart">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Tegnología
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-                  <div class="btn-group dropstart">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Hogar
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-                  <div class="btn-group dropstart">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Moda / Accesorios
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-                  <div class="btn-group dropstart">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Accesorios
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-                  <div class="btn-group dropstart">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Belleza
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-                  <div class="btn-group dropstart">
-                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Cuidado Personal
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                      <li><a class="dropdown-item" href="#">Menu item</a></li>
-                    </ul>
-                  </div>
-                </div>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a href="#" class="dropdown-item">&lsaquo; Tegnologia </a>
+                      <ul class="dropdown-menu submenu submenu-left dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">&lsaquo; Hogar</a>
+                      <ul class="dropdown-menu submenu submenu-left dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">&lsaquo; Moda</a>
+                      <ul class="dropdown-menu submenu submenu-left dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">&lsaquo; Accesorios</a>
+                      <ul class="dropdown-menu submenu submenu-left dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">&lsaquo; Belleza</a>
+                      <ul class="dropdown-menu submenu submenu-left dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-item">&lsaquo; Cuidado Personal</a>
+                      <ul class="dropdown-menu submenu submenu-left dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Menu item 1</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 2</a></li>
+                        <li><a class="dropdown-item" href="#">Menu item 3</a></li>
+                      </ul>
+                    </li>
+                </ul>
               </li>
             </ul>
             
@@ -122,34 +110,33 @@
   <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary p-0 ">
       <button class="ubicacion border-0 bg-body-tertiary ms-4">
-        <div class="d-flex p-0">
-          <img src="./img/unicacion.png" width="30px">
-          <div class="nav-menu-item nav-menu-cp nav-menu-cp-logged" data-js="cp" href="" data-modal-action="true" role="button" aria-expanded="false" aria-haspopup="true"><span class="nav-menu-cp-send">Ingresa tu</span><span class="nav-menu-link-cp"> ubicación</span></div> 
+        <div class="d-flex align-items-center">
+          <div><img src="./img/unicacion.png" width="20px"></div>
+          <a class="ubicacion" href="#">Ingresa Tu Ubicación</a>
         </div> 
       </button>
+
+
       <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+        </button>-->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">OFERTAS</a>
+              <a class="nav-link" href="#">OFERTAS</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">RASTREA TU PEDIDO</a>
-            </li>
-            
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                CENTRO DE AYUDA
-              </a>
-              <ul class="dropdown-menu">
+              <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">CENTRO DE AYUDA</a>
+              <ul class="dropdown-menu dropdown-menu-tertiary">
                 <li><a class="dropdown-item" href="#">Problemas con tu pedido</a></li>
                 <li><a class="dropdown-item" href="#">Problemas con el sitio web</a></li>
                 <li><a class="dropdown-item" href="#">Problemas con el vendedor</a></li>
                 <li><a class="dropdown-item" href="#">Otros</a></li>
               </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RASTREA TU PEDIDO</a>
             </li>
           </ul>
         </div>
@@ -167,22 +154,16 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="./img/slide1op2.jpg" class="d-block w-100" alt="...">
+        <img src="https://http2.mlstatic.com/D_NQ_620839-MLA78042304333_072024-OO.webp" alt="...">
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="https://http2.mlstatic.com/D_NQ_688230-MLA77774127747_072024-OO.webp" class="d-block w-100" alt="...">
+        <img src="https://http2.mlstatic.com/D_NQ_853274-MLA78042702805_072024-OO.webp" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://http2.mlstatic.com/D_NQ_819417-MLA77556236712_072024-OO.webp" class="d-block w-100" alt="...">
+        <img src="https://http2.mlstatic.com/D_NQ_845275-MLA78042867179_072024-OO.webp" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="https://http2.mlstatic.com/D_NQ_702074-MLA77791645629_072024-OO.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://http2.mlstatic.com/D_NQ_621544-MLA77774130121_072024-OO.webp" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://http2.mlstatic.com/D_NQ_699790-MLA77762086754_072024-OO.webp" class="d-block w-100" alt="...">
+        <img src="https://http2.mlstatic.com/D_NQ_756055-MLA78042240127_072024-OO.webp" class="d-block w-100" alt="...">
       </div>
       
     </div>
@@ -196,78 +177,296 @@
     </button>
   </div>
 
-  <section class="ofertas">
-    <div class="container-fluid text-center p-0">
-      <div class="row align-items-start ms-5">
-        <h2 class="text-start m-5 mb-1 ms-1">OFERTAS DE LA SEMANA</h2>
+  <div class="m-5">
+    <h2>OFERTAS</h2>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-group ">
+            <div class="card border-end-0 pt-2">
+              <img src="https://http2.mlstatic.com/D_Q_NP_982426-MCO73285077813_122023-W.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="subtitle mb-0 text-danger">$4.000.000</h6>
+                <h2 class="card-title mt-0">$1.849.900</h2>
+                <p class="card-text">Portátil Lenovo Ideapad Slim 3 Intel Ci 5 8gb 512gb Touch.</p>
+                <p class="card-text envio">Envío Gratis</p>
+              </div>
+            </div>
+            <div class="card border-end-0 pt-2">
+              <img src="https://http2.mlstatic.com/D_Q_NP_733580-MLA72063241888_102023-W.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="subtitle mb-0 text-danger">$1.730.000</h6>
+                <h2 class="card-title mt-0">$1.659.900</h2>
+                <p class="card-text">Apple Watch Series 9 GPS • Caja de aluminio color medianoche de 45 mm.</p>
+                <p class="card-text envio">Envío Gratis</p>
+              </div>
+            </div>
+            <div class="card border-end-0 pt-2">
+              <img src="https://http2.mlstatic.com/D_Q_NP_641120-MLA73977340632_012024-W.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="subtitle mb-0 text-danger">$930.000</h6>
+                <h2 class="card-title mt-0">$759.000</h2>
+                <p class="card-text">Monitor LG 27SR50F 27" IPS Full HD, Blanco, Bivolt 110V/220V.</p>
+                <p class="card-text envio">Envío Gratis</p>
+              </div>
+            </div>
+            <div class="card border-end-0 pt-2">
+              <img src="https://http2.mlstatic.com/D_Q_NP_912227-MLA71782903150_092023-W.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="subtitle mb-0 text-danger">$5.340.000</h6>
+                <h2 class="card-title mt-0">$5.193.900</h2>
+                <p class="card-text">Apple iPhone 15 Pro Max (256 GB) - Titanio Azul.</p>
+                <p class="card-text envio">Envío Gratis</p>
+              </div>
+            </div>
+            <div class="card border-end-0 pt-2">
+              <img src="https://http2.mlstatic.com/D_Q_NP_851512-MLU75227486477_032024-W.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="subtitle mb-0 text-danger">$309.000</h6>
+                <h2 class="card-title mt-0">$218.900</h2>
+                <p class="card-text">Freidora De Aire Oster Bioceramic Sin Aceite 4lt Air Fryer Color Negro 110V.</p>
+                <p class="card-text envio">Envío Gratis</p>
+              </div>
+            </div>
+            <div class="card pt-2">
+              <img src="https://http2.mlstatic.com/D_Q_NP_872786-MLU76878828522_062024-W.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="subtitle mb-0 text-danger">$900.000</h6>
+                <h2 class="card-title mt-0">$412.250</h2>
+                <p class="card-text">Guitarra Eléctrica Femmto EG001 Stratocaster con Amplificador y Accesorios.</p>
+                <p class="card-text envio">Envío Gratis</p>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+        </div>
         
-          <div class="card" style="width: 18rem;">
-            <img src="./img/bolsos1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_887528-MLU72836347713_112023-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Escritorio RTA Muebles Astana madera aglomerada de 120cm x 73.5cm x 50cm blanco</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_943523-CBT75582141144_042024-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Qcy H3 Anc Auriculares Bluetooth 5.4 60h 43db Nivel De Cd</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_865149-MLU75359076643_032024-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Aire Acondicionado Inverter 12000btus Blanco Mabe MMI12CABWCCC8</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_809724-MCO72964277395_112023-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Leggins Pantaloneta Licra Short 2 Bolsillos Dep Alta Calidad</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem; d-block">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_928134-MLU77648170162_072024-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Gafas Invicta Eyewear I 28147-avi-09 Oro Unisex</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_809410-CBT71169936203_082023-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Camisa Seda De Hielo Refrescado Formal Lindo Para Hombres</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_948086-MLU71737846363_092023-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Qcy H3 Anc Auriculares Bluetooth 5.4 60h 43db Nivel De Cd</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_681034-MCO77386315918_072024-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Kit Universitario: Morral Bakery, Cartuchera Trik Y Botilito</p>
-            </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src="https://http2.mlstatic.com/D_NQ_NP_696416-MCO72387432797_102023-O.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Zapatos Casuales Fortis Tipo Oxford Para Hombre</p>
-            </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="m-5">
+    <h3>ELECTRODOMESTICOS</h3>
+    <div class="card-group ">
+        <div class="card border-end-0 p-3">
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_696933-MLA49632731098_042022-T.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$1.789.900</h4>
+            <p class="card-text" >Lavadora Whirlpool Superior 19kgs Smart Action Y Panel Digit Color Gris oscuro 120V.</p>
+            <p class="card-text envio">Envío Gratis</p>
           </div>
         </div>
-      </div>
-      
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_823049-MLA69220505376_052023-AD.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$136.000</h4>
+            <p class="card-text">Licuadora Imusa Powermix Glass 1,25 L blanca con vaso de vidrio 110V - 120V.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-3">
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_838049-MLU74966342469_032024-T.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$269.900</h4>
+            <p class="card-text">Capuchinera Cafetera Espresso + Capuccino Home Elements HECM2033 Color Negro 120V.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-3">
+          <img src="https://http2.mlstatic.com/D_Q_NP_2X_775677-MCO54229671183_032023-T.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$45.000</h4>
+            <p class="card-text">Plancha Viajera Para Ropa Antiadherente Vapor Spray Y Seca.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-3">
+          <img src="https://http2.mlstatic.com/D_Q_NP_851512-MLU75227486477_032024-W.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$218.900</h4>
+            <p class="card-text">Freidora De Aire Oster Bioceramic Sin Aceite 4lt Air Fryer Color Negro 110V.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card pt-3">
+          <img src="https://http2.mlstatic.com/D_Q_NP_997122-MLU74515160773_022024-AD.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$291.100</h4>
+            <p class="card-text">Limpiador De Vidrios Karcher Wv 1 Plus Color Amarillo 110V.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
     </div>
+  </div>
+  
+  <div class="m-5">
+    <h3>HOGAR</h3>
+    <div class="card-group ">
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_714963-MLU75357646135_032024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$90.500</h4>
+            <p class="card-text">Cámara de seguridad Tapo link C200 Ip Wifi Robótica, Full Hd / Audio, Tapo C200 Color Blanco.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_991192-MLU77958498094_082024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$429.900</h4>
+            <p class="card-text">Torre ducha para baño con manguera 127x16x45cm hidromasaje Femmto.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_908345-MLU74051959086_012024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$188.999</h4>
+            <p class="card-text">Mesa Portafolio Plegable 180cm Resistente Exterior Jardin Color Blanco.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_649426-MLU74140626571_012024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$45.000</h4>
+            <p class="card-text">Silla Escritorio Ergonomica Sillon Oficina Giratoria Ejecutiva Secretarial Pc Computador Femmto.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_778220-MLU71232112058_082023-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$128.569</h4>
+            <p class="card-text">Estante Metalico Organizador Stay Elit Hogar Rack-10 Color Marrón.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_628333-MLU75458098246_042024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$1.061.100</h4>
+            <p class="card-text">Sofacama Sion En Tela Patas En Pino Color Gris.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+    </div>
+  </div>
 
+  <div class="m-5">
+    <h3>MODA</h3>
+    <div class="card-group ">
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_928134-MLU77648170162_072024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$149.900</h4>
+            <p class="card-text">Gafas Invicta Eyewear I 28147-avi-09 Oro Unisex.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_815845-CBT75228930174_032024-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$105.716</h4>
+            <p class="card-text">Longchamp Le Pliage Bolso Tote Mediano Original, Azul Marino.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_816064-CBT70834562055_082023-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$77.240</h4>
+            <p class="card-text">Sandalias Ortopédicas Con Soporte Para El Arco Para Mujer.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_807238-CBT72180859950_102023-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$270.214</h4>
+            <p class="card-text">Chamarras De Estilo Militar Con Cremallera Para Hombre.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card border-end-0 pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_622335-CBT52154661225_102022-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$83.143</h4>
+            <p class="card-text">3 Medias Térmicas De Forro Polar Translúcidas Falsas Mujer.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+        <div class="card pt-2">
+          <img src="https://http2.mlstatic.com/D_Q_NP_893513-CBT69772472814_062023-P.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title mt-0">$128.871</h4>
+            <p class="card-text">Elegantes Vestidos Largos Casuales Con Lentejuelas Para.</p>
+            <p class="card-text envio">Envío Gratis</p>
+          </div>
+        </div>
+    </div>
+  </div>
 
+  <button class="vermas">VER MÁS</button>
+
+  <footer class="bg-dark text-light">
+
+    <table class="table table-dark table-borderless text-center">
+      <tr>
+        <th>Gana Dinero con Nosotros</th>
+        <th>Sobre Nosotros</th>
+        <th>Ayuda</th>
+      </tr>
+      <tr>
+        <td><a href="#" class="pie">Vender productos en Flash-e</a></td>
+        <td><a href="#" class="pie">Terminos & Condiciones</a></td>
+        <td><a href="#" class="pie">Contactanos</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" class="pie"> Programa de Referidos</a></td>
+        <td><a href="#" class="pie"> Privacidad de Datos</a></td>
+        <td><a href="#" class="pie">Problemas con tu Pago</a></td>
+      </tr>
+      <tr>
+        <td><a href="#" class="pie">Anuncia tus Productos</a></td>
+        <td><a href="#" class="pie">Preguntas Frecuentes</a></td>
+        <td><a href="#" class="pie">Denuncia Fraude</a></td>
+      </tr>
+    </table>
+    
+    <div class="ms-5 me-5">
+      <table class="table  text-center">
+        <h2 class="text-center ">Metodos de Pago</h2>
+        <tr>
+          <th>VISA</th>
+          <th>MASTERCARD</th>
+          <th>AMERICAN EXPRESS</th>
+        </tr>
+        <tr class="table-borderless">
+          <td class="mb-0"><img style="width: 60px;" src="./img/visa.png"></td>
+          <td class="mb-0"><img style="width: 60px;" src="./img/mastercard.png"></td>
+          <td class="mb-0"><img style="width: 60px;" src="./img/amex.png"></td>
+        </tr>
+      </table>
+    </div>
+    <p class="text-end me-3">© 2024 Flashe.com</p>
+      </div>
         
-  </section>
+    </div>
+  </footer>
 </body>
 </html>
+
+
+
+
