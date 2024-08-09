@@ -1,3 +1,4 @@
+
 .logo_img{
     width: 180px;
     margin-left: 20px;
@@ -24,4 +25,70 @@ span{
  
 .articulos{
     width: 350px;
+}
+
+.dropdown-menu li{
+    position:relative;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top:-7px;
+}
+
+.dropdown-menu>li:hover>.submenu{
+    display: block;
+}
+
+.dropdown-menu .submenu-left{
+    right:100%;
+    left:auto;
+}
+
+.ubicacion{
+    text-decoration: none;
+    color: #757474;
+    padding: 0;
+ 
+}
+
+.subtitle{
+    color: #757474;
+    text-decoration:line-through;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.envio{
+    color: rgb(1, 150, 1);
+    font-size:medium;
+    font-weight: bold;
+}
+
+
+.vermas{
+    width: 150px;
+    padding: 10px;
+    margin:  50px 650px;
+    background-color:rgb(255, 238, 0);
+    border: none;
+}
+
+footer{
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    min-width: 1000px;
+    position: relative;
+}
+
+.pie{
+    text-decoration: none; 
+    color: #bebebe;
 }
